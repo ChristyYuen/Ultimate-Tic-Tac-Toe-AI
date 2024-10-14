@@ -4,17 +4,15 @@
 This project implements a bot that plays Ultimate Tic-Tac-Toe using Monte Carlo Tree Search (MCTS). Ultimate Tic-Tac-Toe is a turn-based two-player game played on a grid of 9 tic-tac-toe boards, where players must complete a giant row, column, or diagonal. Each player's move influences which board their opponent must play on.
 
 ## Running the Game
-To run the game interactively, use the following command (from the `/src` folder):
+1. To run the game interactively, use the following command (from the `/src` folder):
+    ```bash
+    python p3_play.py human human
 
-```bash
-python p3_play.py human human
+2. Replace `human` with one of the bot names: `mcts_vanilla`, `mcts_modified`, `random_bot`, or `rollout_bot`.
 
-Replace `human` with one of the bot names: `mcts_vanilla`, `mcts_modified`, `random_bot`, or `rollout_bot`.
-
-For a simulation between bots without graphical rendering, run:
-
-```bash
-python p3_sim.py PLAYER1 PLAYER2
+3. For a simulation between bots without graphical rendering, run:
+    ```bash
+    python p3_sim.py PLAYER1 PLAYER2
 
 ## Code Overview
 Main files in the project include:
